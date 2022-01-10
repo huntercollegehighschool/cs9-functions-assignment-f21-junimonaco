@@ -9,4 +9,5 @@ C = (F - 32) * 5/9
 """
 
 def celsius(f):  # do not change this line
-  farenheit = 
+ celsius = (fahrenheit - 32) * (5/9)
+  return celsius
