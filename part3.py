@@ -19,4 +19,4 @@ def factorial(number):
   return product
 
 def combination(n, r):  # do not change this line
-  pass  # delete the word pass when you start writing your code
+  n! / (r! * (n - r)!)

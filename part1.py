@@ -8,7 +8,10 @@ However, there are (at least) 7 errors in the code. Fix them so that it runs pro
 '''
 
 def distinct():
-  if a != b and b!= c: #a, b, and c are the three parameters (numbers) that will be passed into the function
+  if num1 != num2 and num2 != num3: #a, b, and c are the three parameters (numbers) that will be passed into the function
     return True
   else:
     return False
+
+
+# i don't get how to get the variables to link up with the variables in main?
