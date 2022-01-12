@@ -19,5 +19,5 @@ def factorial(number):
   return product
 
 def combination(n, r):  # do not change this line
-  total = n! // (r! * (n - r)!)
-    return total
+  total = factorial(n) / (factorial(r) * factorial(n-r))
+  return total
